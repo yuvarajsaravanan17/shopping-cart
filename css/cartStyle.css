@@ -1,0 +1,151 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+.container{
+    width:95vw;
+    min-height: 300px;;
+    margin: 100px auto;
+    overflow-y: scroll;
+    border:5px solid rgb(66, 67, 67);
+    padding:20px;
+    position:relative;
+  
+
+    
+ 
+}
+tbody tr td{
+    text-align: center;
+}
+tbody tr td:nth-child(1) img:hover{
+    transform: scale(3);
+    cursor:pointer;
+    margin-left:30px;
+    border:2px solid grey;
+   
+    
+}
+table th{
+padding:10px;
+background-color: grey;
+border:1px solid black;
+width:200px;
+
+
+
+}
+nav img{
+    height:30px;
+    width:30px;
+}
+img{
+    height:50px;
+    width:50px;
+
+}
+#delete{
+    height:25px;
+    width:25px;
+    border:2px solid red;
+    margin-left:30px;
+}
+#delete:hover{
+    background-color: red;
+    transform: scale(1.5);
+    cursor:pointer;
+    border-radius: 2px;;
+}
+#quantity{
+    width:50px;
+    margin-left:30px;
+    border:2px solid black;
+}
+/* #total
+{
+    display: inline-block;
+    background-color: grey;
+    margin-left:700px;
+    border:3px solid black;
+    height:50px;
+    text-align: center;
+    width:150px;
+
+    
+    
+    
+} */
+/* #payment{
+
+    background-color: rgb(4, 112, 4);
+    border:3px solid black;
+    padding:10px;
+    border-radius: 10px;
+    cursor:pointer;
+  
+    margin-left:870px;
+
+} */
+#payment:hover{
+    transform: scale(1.2);
+    background-color: rgb(19, 126, 18);
+    transition: 0.2s ease;
+
+}
+/* #totalButton{
+   
+    background-color: rgb(4, 112, 4);
+    padding:10px;
+    margin-left:580px;
+    width:100px;
+    border-radius:10px;
+    cursor:pointer;
+
+    font-weight: bolder;
+    
+} */
+#totalButton:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease;
+    background-color: rgb(43, 28, 203);
+}
+#totalOuter{
+   display: flex;
+ 
+   position:absolute;
+   bottom:20px;
+   justify-content: space-between;
+}
+#totalButton{
+    background-color: rgb(63, 63, 245);
+    padding:5px;
+    border:2px solid rgb(23, 0, 128);
+    font-weight: bolder;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-left:300px;
+    width:300px;
+
+}
+#total{
+    background-color: rgb(81, 81, 243);
+    width:250px;
+    margin-left:40px;
+    padding:10px;
+    border:3px solid blue;
+    border-radius: 4px;
+    text-align: center;
+}
+#payment{
+    background-color: rgb(40, 173, 40);
+    width:300px;
+    border: 3px solid green;
+    margin-left:40px;
+    border-radius: 4px;
+    font-weight:bolder;
+    font-size:16px;
+}

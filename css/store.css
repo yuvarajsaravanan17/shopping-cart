@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size:20px;
+  
+}
+#outer{
+    width:1260px;
+    margin:30px auto;
+    padding:10px;
+}
+
+.icon{
+    margin-right:3px;
+}
+#header{
+    position:sticky;
+    top:0;
+    z-index:100;
+ }
+
+.menu {
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    height:40px;
+
+}
+.dropdown,.dropdown2{
+    display: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+.menu li:nth-child(2):hover .dropdown{
+    display: block;
+}
+.menu li:nth-child(3):hover .dropdown2{
+    display: block;
+}
+a{
+    
+    display:block;
+    width:253px;
+    background-color: rgb(37, 40, 48);
+    color:whitesmoke;
+    text-decoration: none;
+    padding:20px 0px;
+    font-size:20px;
+    text-align: center;
+    
+}
+a:hover{
+    background-color: rgb(21, 21, 27);
+    color:cornflowerblue;
+}
+.yourData{   
+    text-decoration: none;
+    list-style-type: none;
+    transform: translateX(250px) translateY(-50px);
+    position:absolute;
+    display: none;
+   
+}
+.dropdown2  li:nth-child(1):hover .yourData{
+    display: block;
+
+}
+#yourName{
+    margin-top:50px;
+}
+
+#row1{
+    margin-top:30px;
+    display:flex;
+    justify-content: space-between;
+   overflow: hidden;
+   border-bottom: 5px solid azure;
+    
+}
+#row2{
+    margin-top:100px;
+    display:block;
+
+}
+.image1{
+    width:400px;
+    height:200px;
+    padding:5px;
+    border:2px solid rgb(247, 241, 241);
+    
+}
+.image1:hover{
+    transform: scale(1.2);
+    transition: 0.2s ease;
+    cursor:pointer;
+}
+.image2{
+    width:450px;
+    height:450px;
+    padding:10px;
+    margin-left:100px;
+    border:5px solid rgb(235, 221, 221);
+}
+.image2:hover,.image3:hover{
+    transform: scale(1.1);
+    transition: 0.2 ease;
+    cursor:pointer;
+}
+.image3{
+    width:450px;
+    height:300px;
+    padding:10px;
+    margin-left:100px;
+    border:5px solid rgb(235, 221, 221);
+}
+.image4{
+    
+    height:500px;
+    width:320px;
+}
+#row3 img{
+    width:1000px;
+    height:400px;
+    margin-top:100px;
+   padding:0.5px;
+    border:5px solid black;
+    margin-left:120px;
+    
+}
+#row3 img:hover{
+    transform: scale(1.2);
+    transition: 0.2s ease;
+
+}
+
+
